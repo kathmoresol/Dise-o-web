@@ -1,2 +1,2 @@
-# Dise-o-web
+# Diseno-web
 Skin Care Shop
