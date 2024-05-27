@@ -1,2 +1,2 @@
 # Diseno-web
-Skin Care Shop
+Salud/Belleza.
