@@ -1,0 +1,26 @@
+.titulo1,
+.titulo2 {
+    text-align: center;
+}
+.icono1 {
+    color: rgba(227, 22, 155, 0.86);
+    font-size: 60px;
+}
+.icono2 {
+    color: rgba(64, 21, 221, 0.86);
+    font-size: 60px;
+}
+.icono3 {
+    color: rgba(51, 221, 21, 0.86);
+    font-size: 60px;
+}
+button.btn {
+    padding: 20px !important;
+    background-color:  rgba(227, 22, 155, 0.86);
+    color: white;
+    border: 0;
+}
+button.btn:hover {
+    background-color:  rgba(178, 17, 122, 0.86);
+    color: white;
+}

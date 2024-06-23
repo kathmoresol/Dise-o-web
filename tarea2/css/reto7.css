@@ -1,0 +1,10 @@
+.imagen {
+    width: 100%;
+    margin: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.imghvr-fade {
+    color: black !important;
+    background-color: #fff !important;
+}

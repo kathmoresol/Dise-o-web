@@ -1,0 +1,9 @@
+.hero {
+  display: flex !important;
+  flex-direction: row;
+  padding: 40px auto;
+}
+
+.principal {
+  background-color: #cecece;
+}

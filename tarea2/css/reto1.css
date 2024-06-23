@@ -1,0 +1,20 @@
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+.hero {
+    min-height: 80vh;
+    align-items: center;
+    display: flex;
+}
+
+.btn.cta {
+    width: 150px;
+    padding: 10px;
+    background-color: deeppink;
+    border: 0;
+}
+
+.btn.cta:hover {
+    background-color: rgb(249, 76, 169)
+}
