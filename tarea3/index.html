@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!----ajustar contenido de pantalla cellular--->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing page</title>
+    <!----carga del framework css bootstrap CDN--->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="icon" sizes="16x16 32x32 48x48" type="image/png" href="img/favicon.png" />
+  </head>
+  <body>
+      <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex">
+                <img src="img/favicon.png" alt="logo" />
+                <h2 class="logo mx-3">Imaginario</h2>
+            </div>
+            <nav class="d-none d-md-block">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#eventos">Eventos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#melodias">Melodias</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#concepto">Concepto</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse d-md-none" id="navbarResponsive">
+            <ul class="nav flex-column text-center bg-dark">
+                <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#eventos">Eventos</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#melodias">Melodias</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#concepto">Concepto</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+
+    </header>
+   
+
+    <section id="inicio" class="d-flex align-items-center justify-content-center position-relative">
+        <video autoplay muted loop class="video-background">
+            <source src="img/video1.mp4" type="video/mp4">
+            
+        </video>
+        <div class="container text-center banner-content">
+            <h1>Imaginario</h1>
+            <p class="lead">Experimenta nuestro festival de luces para todas las edades, que cuenta con millones de luces y ¡mucho más!
+            </p>
+            <a href="#eventos" class="btn btn-primary btn-lg">Descubre Más</a>
+        </div>
+        <a data-scroll id="flechabtn" class="goto-top" href="#footer" title="ir al final">
+            <img src ="img/flecha-hacia-abajo (1).png" class="img-fluid" alt="flecha para ir flecha-hacia-abajo" width="50" height="50">
+        </a>
+    </section>
+
+    <section id="eventos" class="servicespy-5">
+        <div class="container text-center">
+            <h2 class="mb-5">Nuestros Eventos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="img/mirror-ball (1).png" alt="" width="70" height="70" class="mb-3">
+                    <h3>Milpitas, California, EE.UU.</h3>
+                    <p>Gran centro comercial.</p>
+                    <a href="milpitas.html" class="btn btn-primary">Ver más</a>
+                   
+                    
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="img/mirror-ball (1).png" alt="" width="70" height="70" class="mb-3">
+                    <h3>Phoenix, Arizona, EE.UU.</h3>
+                    <p>Tiendas premium de Phoenix.</p>
+                    <a href="phoenix.html" class="btn btn-primary">Ver más</a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="img/mirror-ball (1).png" alt="" width="70" height="70" class="mb-3">
+                    <h3>Lake, California, EE.UU.</h3>
+                    <p>Centro Lakewood.</p>
+                    <a href="lakewood.html" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="melodias" class="projects py-5 text-white">
+        <div class="container text-center">
+            <h2 class="mb-5">Melodías del Evento</h2>
+
+            <div class="text-center">
+                <lottie-player src="https://lottie.host/4b964f14-185a-4136-a7e9-e17519858112/CA8yzEGLU3.json" autoplay loop style="width:60%" class="container">
+                </lottie-player>
+
+            </div>
+            <audio controls>
+                <source src="audios/audio1.mp3" type="audio/mpeg">
+
+            </audio>
+        </div>
+    </section>
+
+    <section id="testimonios" class="testimonials py-5">
+        <div class="container text-center">
+            <h2 class="mb-5">Lo Que Dicen Nuestros Clientes</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="img/Curly hair-pana.png" alt="" width="70" height="70" class="mb-3">
+                    <p>"La experiencia con Imaginario 360 ha sido transformadora" - Elena</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="img/DJ man-cuate.png" alt="" width="70" height="70" class="mb-3">
+                    <p>"Vivimos una experiencia increible, fue hermoso." - Marvin</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="img/Ash Wednesday-pana.svg" alt="" width="70" height="70" class="mb-3">
+                    <p>"Su equipo es profesional y creativo vimos cosas nunca antes vistas" - Ash</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="concepto" class="concepto team py-5">
+        <div class="overlay"></div>
+        <div class="container text-center">
+            <h2 class="mb-5">¿QUÉ ES IMAGINARIO?</h2>
+            <p>De un sueño a una realidad, Imaginario, es el espectáculo de luces de mayor duración en Estados Unidos, ha evolucionado desde su creación y debut en Great America en Santa Clara en 2011 como Global Winter Wonderland. Si bien la experiencia cambia de año en año y de lugar en lugar, Imaginario promete una experiencia cautivadora llena de millones de luces, atrevidos actos de circo, exhibiciones inmersivas e interactivas y personajes gigantes que van desde dinosaurios hasta princesas de hadas.</p>
+        </div>
+    </section>
+    <section class="bg-light">
+        <h2 class="titulajes text-center pt-5">Mapa de ubicación</h2>
+        <div class="pt-5">
+
+            <!-- MAPA GOOGLE FULLSCREEN -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3122.1611848125376!2d-74.01153595587347!3d40.71161287686038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNueva%20York%2C%20EE.%20UU.!5e0!3m2!1ses!2scr!4v1720843169299!5m2!1ses!2scr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </section>
+
+
+    <section id="contacto" class="contact py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Suscríbete a Nuestro Boletín</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <form class="subscribe-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Suscribirse</button>
+                    </form>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="contact-info">
+                        <p><strong>Dirección:</strong> 233 Broadway, New York, NY 10007, Estados Unidos</p>
+                        <p><strong>Teléfono:</strong> +123 456 7890</p>
+                        <p><strong>Email:</strong> contacto@Imaginario.com</p>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+        <a href="https://wa.me/1234567890?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20evento" class="whatsapp-float" target="_blank">
+            <img src="img/whatsapp.svg" alt="WhatsApp">
+        </a>
+
+    
+    </section>
+
+    <footer class="bg-dark text-white py-3 position-relative" id="footer">
+        <div class="container text-center">
+            <div class="footer-nav mb-3">
+                <a class="text-white mx-2" href="#inicio">Inicio</a>
+                <a class="text-white mx-2" href="#eventos">Eventos</a>
+                <a class="text-white mx-2" href="#melodias">Melodias</a>
+                <a class="text-white mx-2" href="#concepto">Concepto</a>
+                <a class="text-white mx-2" href="#contacto">Contacto</a>
+            </div>
+          
+            <p>&copy; 2024 Imaginario. Todos los derechos reservados.</p>
+        </div>
+        <a data-scroll id="flechabtn" class="goto-top" href="#inicio" title="ir al inicio">
+            <img src ="img/flecha-hacia-arriba.png" class="img-fluid" alt="flecha para ir arriba" width="50" height="50">
+          </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  </body>
+</html>
