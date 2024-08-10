@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Marcellus+SC&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body {
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header .titulo {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.btn-volver {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ff33e4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.btn-volver:hover {
+    background-color: #0024c7;
+}
+
+#evento {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.video-container, .foto-container {
+    width: 100%;
+}
+
+.video-full, .foto-full {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+    .header .titulo {
+        font-size: 1.5rem;
+    }
+    
+    .btn-volver {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .header .titulo {
+        font-size: 1.2rem;
+    }
+
+    .btn-volver {
+        padding: 0.4rem;
+        font-size: 0.8rem;
+    }
+}
+
