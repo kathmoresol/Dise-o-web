@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <!----ajustar contenido de pantalla cellular--->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inicio - Maquillaje Glamour</title>
+  <!----carga del framework css bootstrap CDN--->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- carga de la libreria ANIMATE.CSS CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/landing.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="icon" sizes="16x16 32x32 48x48" type="image/jpg" href="img/foto2.jpg" />
+</head>
+
+<body>
+  <header class="bg-dark text-white">
+    <div class="header-pic">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="white" fill-opacity="1"
+          d="M0,96L34.3,106.7C68.6,117,137,139,206,144C274.3,149,343,139,411,144C480,149,549,171,617,181.3C685.7,192,754,192,823,181.3C891.4,171,960,149,1029,149.3C1097.1,149,1166,171,1234,197.3C1302.9,224,1371,256,1406,272L1440,288L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
+        </path>
+      </svg>
+    </div>
+
+    <div class="container d-flex justify-content-between align-items-center pb-3">
+      <div class="d-flex align-items-center">
+        <img src="img/foto2.jpg" alt="logo" class="logo-imaginario" />
+        <h2 class="logo mx-3">Maquillaje Glamour</h2>
+      </div>
+
+      <nav class="d-none d-md-block">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-white elastic-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white elastic-link" href="galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white elastic-link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white elastic-link" href="index.html#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white elastic-link" href="nosotros.html">Nosotros</a>
+          </li>
+
+          <!-- Menú Desplegable -->
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dropdown-toggle elastic-link" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Explora
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item elastic-link" href="maquillajeBoda.html">Maquillaje Boda</a></li>
+              <li><a class="dropdown-item elastic-link" href="maquillajeNoche.html">Maquillaje Noche</a></li>
+              <li><a class="dropdown-item elastic-link" href="maquillajeEventos.html">Maquillaje Eventos</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Botón para navegación móvil -->
+      <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+    <!-- Menú de navegación para móviles -->
+    <div class="collapse navbar-collapse d-md-none" id="navbarResponsive">
+      <ul class="nav flex-column text-center bg-dark">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="inicio.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="galeria.html">Galería</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html#contacto">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdownMobile" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Explora
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMobile">
+            <li><a class="dropdown-item" href="maquillajeBoda.html">Maquillaje Boda</a></li>
+            <li><a class="dropdown-item" href="maquillajeNoche.html">Maquillaje Noche</a></li>
+            <li><a class="dropdown-item" href="maquillajeEventos.html">Maquillaje Eventos</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="inicio" class="d-flex align-items-center justify-content-center position-relative">
+    <video autoplay muted loop class="video-background">
+      <source src="img/7291773-uhd_3840_2160_25fps.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <section id="servicios"
+    class="hero d-flex flex-column align-items-center wow animate__animated animate__slideInRight animate__delay-300ms">
+    <div class="container">
+      <h2 class="text-center mb-5">Servicios</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-3 text-center">
+          <i class="uil uil-heart"></i>
+          <h4 class="subtitle2">Maquillaje para Eventos Especiales</h4>
+          <p class="pb-3">
+            Maquillaje profesional para bodas, fiestas y eventos importantes, personalizado para cada ocasión.
+          </p>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <i class="uil uil-smile-beam"></i>
+          <h4 class="subtitle2">Maquillaje de Novias</h4>
+          <p class="pb-3">
+            Maquillaje especializado para novias, con pruebas previas y aplicación el día del evento para un look
+            perfecto.
+          </p>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <i class="uil uil-shopping-bag"></i>
+          <h4 class="subtitle2">Venta de Productos de Maquillaje</h4>
+          <p class="pb-3">
+            Venta de una amplia gama de productos de maquillaje de alta calidad, incluyendo bases, sombras, labiales y
+            más.
+          </p>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <i class="uil uil-building"></i>
+          <h4 class="subtitle2">Clases de Maquillaje</h4>
+          <p class="pb-3">
+            Talleres y clases de maquillaje para aprender técnicas, tips y trucos personalizados para todos los niveles.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="concepto" class="concepto team">
+    <div class="overlay"></div>
+    <div class="container text-center">
+    </div>
+  </section>
+
+
+  <section class="bg-light">
+    <h2 class="titulajes text-center">Mapa de ubicación</h2>
+    <div class="pt-4">
+      <!-- MAPA GOOGLE FULLSCREEN -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3122.1611848125376!2d-74.01153595587347!3d40.71161287686038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNueva%20York%2C%20EE.%20UU.!5e0!3m2!1ses!2scr!4v1720843169299!5m2!1ses!2scr"
+        width="100%" height="500" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <div class="container">
+      <h2 class="text-center mb-5">Contacto</h2>
+      <form>
+        <div class="form-group mb-3">
+          <label for="name">Nombre:</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group mb-3">
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group mb-3">
+          <label for="subject">Asunto:</label>
+          <input type="text" class="form-control" id="subject" name="subject" required>
+        </div>
+        <div class="form-group mb-3">
+          <label for="message">Mensaje:</label>
+          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+      <div class="container">
+        <div class="row justify-content-center social-icons pt-5 pt-md-3">
+          <!-- Columna para el icono de Instagram -->
+          <div class="col-3 text-center  animate__animated animate__heartBeat animate__delay-300ms animate__infinite ">
+            <a href="https://instagram.com" target="_blank" class="icono icono-instagram">
+              <i class="uil uil-instagram-alt"></i>
+            </a>
+          </div>
+          <!-- Columna para el icono de Facebook -->
+          <div class="col-3 text-center  animate__animated animate__heartBeat animate__delay-300ms animate__infinite ">
+            <a href="https://facebook.com" target="_blank" class="icono icono-facebook">
+              <i class="uil uil-facebook "></i>
+            </a>
+          </div>
+          <!-- Columna para el icono de WhatsApp -->
+          <div class="col-3 text-center  animate__animated animate__heartBeat animate__delay-300ms animate__infinite ">
+            <a href="https://wa.me/1234567890" target="_blank" class="icono icono-whatsapp">
+              <i class="uil uil-whatsapp-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+
+    <div class="boton-contenedor pt-5">
+      <a href="pdf/Proyecto Diseno.pdf"
+        class="boton boton-mas-largo  animate__animated animate__heartBeat animate__delay-300ms animate__infinite "
+        download="Diseno.pdf">
+        Descargar PDF
+      </a>
+    </div>
+  </section>
+
+
+  <footer class="bg-dark text-white position-relative pt-4" id="footer">
+    <div class="container text-center">
+      <p>&copy; 2024 Maquillaje Glamour. Todos los derechos reservados.</p>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="white" fill-opacity="1"
+        d="M0,96L34.3,106.7C68.6,117,137,139,206,144C274.3,149,343,139,411,144C480,149,549,171,617,181.3C685.7,192,754,192,823,181.3C891.4,171,960,149,1029,149.3C1097.1,149,1166,171,1234,197.3C1302.9,224,1371,256,1406,272L1440,288L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+      </path>
+    </svg>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <!-- cargar el archivo JS -->
+  <script src="js/wow.js"></script>
+  <!-- activa los efectos de animacion -->
+  <script>
+    new WOW().init();
+  </script>
+
+  <!-- activacion del POPOVER -->
+  <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+  </script>
+
+  <!-- activacion del TOOLTIP -->
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+
+
+  <!-- animacion progress bar-->
+  <script src="js/loadingbar.js"></script>
+</body>
+
+</html>

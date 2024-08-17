@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #4a4a4a;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #e91e63; /* Color de un rosa vibrante */
+}
+
+i {
+    color: #e91e63;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Disable list bullets */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Price Table Styles */
+.price-table {
+    padding: 25px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid #dcdcdc;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    border-radius: 8px; /* Esquinas redondeadas */
+    height: 370px;
+}
+
+@media (min-width: 768px) {
+    .price-table {
+        height: 500px;
+    }   
+}
+
+@media (min-width: 1024px) {
+    .price-table {
+        height: 400px;
+    }   
+}
+
+.price-table:hover {
+    color: #ffffff;
+    background-color: #f06292; /* Rosa claro al pasar el mouse */
+    border: none;
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px; /* Sombra más suave */
+}
+
+.price-table h2, .price-table p {
+    color: #333;
+}
+
+.price-table h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.price-table p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.price-table .price-amount {
+    font-size: 50px;
+    font-weight: 700;
+    color: #333;
+}
+
+.price-table:hover h2, 
+.price-table:hover p, 
+.price-table:hover .price-amount {
+    color: #ffffff;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+    .price-table {
+        padding: 15px;
+    }
+
+    .price-table h2 {
+        font-size: 18px;
+    }
+
+    .price-table .price-amount {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .price-table {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .price-table {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .price-table {
+        padding: 35px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .price-table {
+        padding: 40px;
+    }
+}

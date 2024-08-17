@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Productos - Maquillaje Glamour</title>
+  <link href="favicon.png" rel="icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link href="css/productos.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <link
+      rel="icon"
+      sizes="16x16 32x32 48x48"
+      type="image/jpg"
+      href="img/foto2.jpg"
+    />
+</head>
+
+<body>
+  <header class="bg-dark text-white">
+    <div class="header-pic">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="white" fill-opacity="1"
+          d="M0,96L34.3,106.7C68.6,117,137,139,206,144C274.3,149,343,139,411,144C480,149,549,171,617,181.3C685.7,192,754,192,823,181.3C891.4,171,960,149,1029,149.3C1097.1,149,1166,171,1234,197.3C1302.9,224,1371,256,1406,272L1440,288L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
+        </path>
+      </svg>
+    </div>
+
+    <div class="container d-flex justify-content-between align-items-center pb-3">
+      <div class="d-flex align-items-center">
+        <img src="img/foto2.jpg" alt="logo" class="logo-imaginario" />
+        <h2 class="logo mx-3">Maquillaje Glamour</h2>
+      </div>
+
+      <nav class="d-none d-md-block">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-white elastic-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white elastic-link" href="galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white elastic-link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white elastic-link" href="index.html#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white elastic-link" href="nosotros.html">Nosotros</a>
+          </li>
+
+          <!-- Menú Desplegable -->
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dropdown-toggle elastic-link" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Explora
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item elastic-link" href="maquillajeBoda.html">Maquillaje Boda</a></li>
+              <li><a class="dropdown-item elastic-link" href="maquillajeNoche.html">Maquillaje Noche</a></li>
+              <li><a class="dropdown-item elastic-link" href="maquillajeEventos.html">Maquillaje Eventos</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Botón para navegación móvil -->
+      <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+    <!-- Menú de navegación para móviles -->
+    <div class="collapse navbar-collapse d-md-none" id="navbarResponsive">
+      <ul class="nav flex-column text-center bg-dark">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="inicio.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="galeria.html">Galería</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html#contacto">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdownMobile" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Explora
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMobile">
+            <li><a class="dropdown-item" href="maquillajeBoda.html">Maquillaje Boda</a></li>
+            <li><a class="dropdown-item" href="maquillajeNoche.html">Maquillaje Noche</a></li>
+            <li><a class="dropdown-item" href="maquillajeEventos.html">Maquillaje Eventos</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="container-fluid bg-light p-100">
+    <div class="container">
+      <div class="text-center">
+        <h1>Tablas de Precio</h1>
+        <h2>Servicios de Maquillaje</h2>
+      </div>
+      <!-- Tabla de Precios -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="price-table">
+            <h3>Maquillaje de Noche</h3>
+            <div class="text-center">
+              <i class="uil uil-makeup"></i>
+            </div>
+            <div class="titulos">Paquete Básico</div><br>
+            <div class="numeros">$80</div>
+            <div>
+              <p>Maquillaje completo</p>
+              <p>Duración: 4 horas</p>
+              <p>Productos de alta calidad</p>
+              <p>Asesoría de estilo</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="price-table">
+            <h3>Maquillaje de Boda</h3>
+            <div class="text-center">
+              <i class="uil uil-makeup"></i>
+            </div>
+            <div class="titulos">Paquete Premium</div><br>
+            <div class="numeros">$150</div>
+            <div>
+              <p>Maquillaje completo</p>
+              <p>Duración: 6 horas</p>
+              <p>Productos de alta gama</p>
+              <p>Asesoría de estilo y prueba previa</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="price-table">
+            <h3>Maquillaje para Eventos Especiales</h3>
+            <div class="text-center">
+              <i class="uil uil-makeup"></i>
+            </div>
+            <div class="titulos">Paquete Exclusivo</div><br>
+            <div class="numeros">$120</div>
+            <div>
+              <p>Maquillaje completo</p>
+              <p>Duración: 5 horas</p>
+              <p>Productos de alta calidad</p>
+              <p>Asesoría de estilo</p>
+              <p>Sesión de retoques</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sección de Productos -->
+      <div class="container pt-5">
+        <h2 class="text-center pb-4">Productos Recomendados</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/foto17.jpg" class="card-img-top" alt="Producto 1">
+              <div class="card-body">
+                <h5 class="card-title">Base de Maquillaje</h5>
+                <p class="card-text">$25</p>
+                <p>Base de alta cobertura para un acabado perfecto.</p>
+                <a href="https://www.flormarcr.com/categories/34/bases?srsltid=AfmBOopEsRemePp_pMgBhNLTdiD3ni3VbjgaBCcTHqeWrvr8BcjTkFyx"
+                  class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/foto14.jpg" class="card-img-top" alt="Producto 2">
+              <div class="card-body">
+                <h5 class="card-title">Sombra de Ojos</h5>
+                <p class="card-text">$18</p>
+                <p>Sombra con una gama de colores vibrantes para cualquier ocasión.</p>
+                <a href="https://www.flormarcr.com/categories/33/1-sombras?srsltid=AfmBOor2GjipcXfH-aaa27Oqr4uBb0wIHRn4in2HlQjF1obU-XYnWBzl"
+                  class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/foto20.jpg" class="card-img-top" alt="Producto 3">
+              <div class="card-body">
+                <h5 class="card-title">Máscara de Pestañas</h5>
+                <p class="card-text">$20</p>
+                <p>Máscara de larga duración para un look impactante.</p>
+                <a href="https://www.flormarcr.com/categories/31/2-mascaras?srsltid=AfmBOoon6KKnzkjPc4JYBW5zRntCpUwQY-NtIhvyj8HY7_R8OgmDv2ML"
+                  class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="container pt-5">
+      <div class="container">
+        <h2 class="text-center pb-4">Ventajas de Nuestros Productos</h2>
+      </div>
+      <div class="row">
+        <ul class="col-md-4 list-group">
+          <li class="list-group-item active" aria-current="true">Fórmulas libres de crueldad animal, 100% cruelty-free</li>
+          <li class="list-group-item">Ingredientes naturales y seguros para tu piel</li>
+          <li class="list-group-item">Larga duración, perfecta para todo el día</li>
+          <li class="list-group-item">Cobertura impecable sin sensación pesada</li>
+        </ul>
+        <ul class="col-md-4 list-group">
+          <li class="list-group-item active" aria-current="true">Amplia gama de tonos para todos los tipos de piel</li>
+          <li class="list-group-item">Resistente al agua, ideal para cualquier clima</li>
+          <li class="list-group-item">Acabado profesional, como si lo hubiera hecho un maquillador</li>
+          <li class="list-group-item">Envases reciclables y eco-amigables</li>
+        </ul>
+        <ul class="col-md-4 list-group">
+          <li class="list-group-item active" aria-current="true">Fórmulas enriquecidas con vitaminas para nutrir tu piel</li>
+          <li class="list-group-item">Textura suave y de fácil aplicación</li>
+          <li class="list-group-item">No comedogénicos, respetuosos con la piel propensa al acné</li>
+          <li class="list-group-item">Hipoalergénicos, ideales para pieles sensibles</li>
+        </ul>
+      </div>
+    </section>
+  </section>
+
+  <footer class="bg-dark text-white position-relative pt-4" id="footer">
+    <div class="container text-center">
+      <p>&copy; 2024 Maquillaje Glamour. Todos los derechos reservados.</p>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="white" fill-opacity="1"
+        d="M0,96L34.3,106.7C68.6,117,137,139,206,144C274.3,149,343,139,411,144C480,149,549,171,617,181.3C685.7,192,754,192,823,181.3C891.4,171,960,149,1029,149.3C1097.1,149,1166,171,1234,197.3C1302.9,224,1371,256,1406,272L1440,288L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+      </path>
+    </svg>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
